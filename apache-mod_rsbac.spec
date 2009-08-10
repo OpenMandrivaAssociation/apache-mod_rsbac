@@ -7,8 +7,8 @@
 
 Summary:	brings some RSBAC specific features to Apache
 Name:		apache-%{mod_name}
-Version:	%{apache_version}.%{modversion}
-Release:	%mkrel 1
+Version:	0
+Release:	%mkrel 0.svn.%{modversion}.1
 Group:		System/Servers
 License:	GPLv2+
 URL:		http://svn.rsbac.org/?do=browse&project=rsbac-apache&path=/
