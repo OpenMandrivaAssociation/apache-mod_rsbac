@@ -20,7 +20,7 @@ Requires(pre):  apache >= %{apache_version}
 Requires:	apache-conf >= %{apache_version}
 Requires:	apache-mpm-rsbac >= %{apache_version}
 Requires:	rsbac-admin, kernel-rsbac
-BuildRequires:  apache-devel = %{apache_version}
+BuildRequires:  apache-devel >= %{apache_version}
 BuildRequires:	rsbac-admin-devel >= 1.4.2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
