@@ -11,7 +11,7 @@ Version:	0
 Release:	%mkrel 0.svn.%{modversion}.7
 Group:		System/Servers
 License:	GPLv2+
-URL:		http://svn.rsbac.org/?do=browse&project=rsbac-apache&path=/
+URL:		https://svn.rsbac.org/?do=browse&project=rsbac-apache&path=/
 Source0:	%{mod_name}-%{modversion}.tar.bz2
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
